@@ -1,0 +1,12 @@
+.outcontent button{
+    background-color: white;
+    border: solid white;
+    box-shadow: 1px 1px 10px black;
+    margin: 10px;
+}
+.outcontent button:hover{
+    box-shadow: 1px 1px 10px yellow,1px 1px 5px gray;
+}
+.outcontent button:active{
+    background-color: rgb(149, 221, 149);
+}
