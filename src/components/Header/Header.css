@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+header span{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+header h1{
+    text-shadow: 1px 1px 5px gray;
+}
+header ul{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+header li a{
+    text-decoration: none;
+    color:rgb(63, 63, 100);
+    font-weight: bold;
+    text-shadow: 1px 1px 5px white;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+header li a:hover{
+    transform: translateY(-5px);
+    border:solid yellow 2px;
+    border-radius: 4px;
+    background-color: white;
+    color:rgb(61, 58, 58);
+    box-shadow: 1px 1px 10px yellow;
+    text-shadow: 1px 1px white;
+    padding:3px;
+}
