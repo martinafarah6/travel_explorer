@@ -1,0 +1,14 @@
+body {
+    background-image:
+    url("travel.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
