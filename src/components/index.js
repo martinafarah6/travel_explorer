@@ -1,0 +1,10 @@
+export {default as Header} from './Header/Header';
+export {default as Home} from './Home/Home';
+export {default as Places} from './Places/Places';
+export {default as Fav} from './Fav/Fav';
+export {default as Dash} from './Dash/Dash';
+export {default as Search} from './Search/Search';
+export {default as SignIn} from './SignIn/SignIn';
+export {default as SignUp} from './SignUp/SignUp';
+export {default as LogOut} from './LogOut/LogOut';
+export {default as Footer} from './Footer/Footer';
