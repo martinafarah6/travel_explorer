@@ -1,0 +1,93 @@
+.warn{
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    text-align: center;
+}
+.title{
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 5px yellow;
+    text-align: center;
+}
+#places ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+#places ul button{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    color:white;
+    padding: 5px;
+    border: white solid 3px;
+    box-shadow: 1px 1px 10px white;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+#places ul button:hover{
+    transform: translateY(-5px);
+}
+#places ul button:active{
+    box-shadow:1px 1px 10px yellow ;
+    border:solid yellow 3px;
+}
+select{
+    border:solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    color:white;
+    text-shadow: 1px 1px 5px black,1px 1px yellow;
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    margin: 10px auto;
+}
+select option{
+    color:black;
+}
+.cardd{
+    display: flex;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+.cardd::-webkit-scrollbar {
+    display: none;
+}
+.cardd .place{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px yellow;
+    border:solid yellow;
+    border-radius: 10px;
+    width:150px;
+}
+.cardd .place img{
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 10px;
+}
+.placecontent{
+    text-align: center;
+}
+.placecontent .name{
+    color:gray;
+    font-size: 35px;
+}
+.placecontent .count{
+    color: gray;
+    font-size: 20px;
+}
+.placecontent .price{
+    color: green;
+}
+.place button{
+    display: block;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px rgb(59, 92, 59);
+    border-radius: 5px;
+}
